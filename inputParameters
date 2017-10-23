@@ -1,0 +1,14 @@
+sphDir = './'
+synthesisDir = '../starburst99/galaxy/'
+grid = 'S29COSMO-055-8.2200kpc_128_z6.55_reionz10_0.9_velmet'
+sources = 'S29COSMO-055-8.2200kpc_34Myr.z6.55_velmet.dat'
+sourcesWithRadii = ''
+currentRedshift = 6.55
+mode = 1
+dustApproximation = 0 // 0=noDust, 1=completeSublimation (dust~HI), 2=noSublimation (dust~totalH)
+selfShieldingThreshold = 0.1 // in kpc
+massStellarParticle = 7 // 1=normal(8x), 2=hiRes(64x), 3=superHiRes(512x), 10=massive
+upperAgeLimit = 34.     // 34., 10., 3.4 -- all in Myrs
+restart = 0    //  0=compute from beginning, 1=restart from saved data
+restartCellArrayName = 'cellArray9999.h4'
+reionizationModel = 10
